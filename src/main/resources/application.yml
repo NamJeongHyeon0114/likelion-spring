@@ -6,3 +6,11 @@ spring:
     url: jdbc:mysql://likelion-database.c9qy0akgsvnw.ap-northeast-2.rds.amazonaws.com/likelion
     username: likelion
     password: likelion1234
+
+
+
+  jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+      database-platform: org.hibernate.dialect.MySQL8Dialect
